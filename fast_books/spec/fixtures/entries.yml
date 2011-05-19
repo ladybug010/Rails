@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  number: MyString
+  payee_id: 1
+  category_id: 1
+  payee_id: 1
+  account_id: 1
+  memo: MyString
+  cleared: false
+
+two:
+  number: MyString
+  payee_id: 1
+  category_id: 1
+  payee_id: 1
+  account_id: 1
+  memo: MyString
+  cleared: false

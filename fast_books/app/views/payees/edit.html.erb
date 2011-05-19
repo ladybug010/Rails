@@ -1,0 +1,16 @@
+<h1>Editing payee</h1>
+
+<% form_for(@payee) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @payee %> |
+<%= link_to 'Back', payees_path %>
